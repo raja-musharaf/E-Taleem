@@ -1,0 +1,6 @@
+framework module Pods_E_TaleemApp {
+  umbrella header "Pods-E-TaleemApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

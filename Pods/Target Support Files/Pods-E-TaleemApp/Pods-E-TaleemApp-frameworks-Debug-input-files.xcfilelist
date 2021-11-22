@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JJFloatingActionButton/JJFloatingActionButton.framework
+${BUILT_PRODUCTS_DIR}/MaterialActivityIndicator/MaterialActivityIndicator.framework
+${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

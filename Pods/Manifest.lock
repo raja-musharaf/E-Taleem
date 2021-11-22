@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - JJFloatingActionButton (2.5.0)
+  - MaterialActivityIndicator (0.0.6)
+  - SwiftyGif (5.4.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - JJFloatingActionButton
+  - MaterialActivityIndicator
+  - SwiftyGif
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - JJFloatingActionButton
+    - MaterialActivityIndicator
+    - SwiftyGif
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JJFloatingActionButton: fdc3aefb0f28f04d0f988fa25d5fac97028a9ea7
+  MaterialActivityIndicator: 5061a52fadf7d22533734f2d34806311331bc424
+  SwiftyGif: 5d4af95df24caf1c570dbbcb32a3b8a0763bc6d7
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: b1c27790e5ed46f6645e0ad74a30a5e0977b66b0
+
+COCOAPODS: 1.10.2

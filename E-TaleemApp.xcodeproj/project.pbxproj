@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181478B727436F6500B85539 /* AccleratedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478B627436F6500B85539 /* AccleratedViewController.swift */; };
+		181478BC274373BE00B85539 /* InclusiveLearningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478BB274373BE00B85539 /* InclusiveLearningViewController.swift */; };
+		181478BE274373D100B85539 /* DigitalPlatformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478BD274373D100B85539 /* DigitalPlatformViewController.swift */; };
+		181478C0274373E100B85539 /* RadioSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478BF274373E100B85539 /* RadioSchoolViewController.swift */; };
+		181478C22743A82C00B85539 /* APIWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478C12743A82C00B85539 /* APIWrapper.swift */; };
+		181478C42743A89B00B85539 /* ClassesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181478C32743A89B00B85539 /* ClassesModel.swift */; };
+		182CB1B0273E2DF80022EDBB /* SubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CB1AF273E2DF80022EDBB /* SubjectViewController.swift */; };
+		182CB1B2273E37F70022EDBB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182CB1B1273E37F70022EDBB /* WebKit.framework */; };
+		182CB1B4273E63850022EDBB /* UIimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CB1B3273E63850022EDBB /* UIimage.swift */; };
+		182CB1BC273E7F080022EDBB /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CB1BB273E7F080022EDBB /* LogoAnimationView.swift */; };
+		182CB1BE273E83980022EDBB /* Splash animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 182CB1BD273E83980022EDBB /* Splash animation.gif */; };
+		182CB1C0273E83E70022EDBB /* Teleschool-text.gif in Resources */ = {isa = PBXBuildFile; fileRef = 182CB1BF273E83E60022EDBB /* Teleschool-text.gif */; };
+		1878C8D9273B93B400679AAD /* TeleschoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8D8273B93B400679AAD /* TeleschoolViewController.swift */; };
+		1878C8DC273B95E900679AAD /* function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8DB273B95E900679AAD /* function.swift */; };
+		1878C8DE273B988F00679AAD /* TeleschoolCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878C8DD273B988F00679AAD /* TeleschoolCollectionViewCell.swift */; };
+		18834E29273A303A00818EB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E28273A303A00818EB3 /* AppDelegate.swift */; };
+		18834E2B273A303A00818EB3 /* FrontScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E2A273A303A00818EB3 /* FrontScreenViewController.swift */; };
+		18834E2E273A303A00818EB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18834E2C273A303A00818EB3 /* Main.storyboard */; };
+		18834E30273A303D00818EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18834E2F273A303D00818EB3 /* Assets.xcassets */; };
+		18834E33273A303D00818EB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18834E31273A303D00818EB3 /* LaunchScreen.storyboard */; };
+		18834E3E273A303D00818EB3 /* E_TaleemAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E3D273A303D00818EB3 /* E_TaleemAppTests.swift */; };
+		18834E49273A303D00818EB3 /* E_TaleemAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E48273A303D00818EB3 /* E_TaleemAppUITests.swift */; };
+		18834E5A273A400F00818EB3 /* DashBoardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E59273A400F00818EB3 /* DashBoardCollectionViewCell.swift */; };
+		18834E5D273A410900818EB3 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E5C273A410900818EB3 /* Platform.swift */; };
+		18834E60273A5FF700818EB3 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18834E5F273A5FF700818EB3 /* UIColor.swift */; };
+		18AE3EF4273CFBA500A7E9A2 /* ClassesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE3EF3273CFBA500A7E9A2 /* ClassesTableViewCell.swift */; };
+		18AE3EF6273CFBE500A7E9A2 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE3EF5273CFBE500A7E9A2 /* ClassesViewController.swift */; };
+		18F108272744D1240054FD4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F108262744D1240054FD4C /* Constants.swift */; };
+		18F1082B2744EE0F0054FD4C /* ClassesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F1082A2744EE0F0054FD4C /* ClassesService.swift */; };
+		A551A1CCD9AAA892DDACC4A4 /* Pods_E_TaleemApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB96C4AE5D2DDFA8C0D0881 /* Pods_E_TaleemApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18834E3A273A303D00818EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18834E1D273A303A00818EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18834E24273A303A00818EB3;
+			remoteInfo = "E-TaleemApp";
+		};
+		18834E45273A303D00818EB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18834E1D273A303A00818EB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18834E24273A303A00818EB3;
+			remoteInfo = "E-TaleemApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181478B627436F6500B85539 /* AccleratedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccleratedViewController.swift; sourceTree = "<group>"; };
+		181478BB274373BE00B85539 /* InclusiveLearningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclusiveLearningViewController.swift; sourceTree = "<group>"; };
+		181478BD274373D100B85539 /* DigitalPlatformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalPlatformViewController.swift; sourceTree = "<group>"; };
+		181478BF274373E100B85539 /* RadioSchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioSchoolViewController.swift; sourceTree = "<group>"; };
+		181478C12743A82C00B85539 /* APIWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWrapper.swift; sourceTree = "<group>"; };
+		181478C32743A89B00B85539 /* ClassesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesModel.swift; sourceTree = "<group>"; };
+		182CB1AF273E2DF80022EDBB /* SubjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectViewController.swift; sourceTree = "<group>"; };
+		182CB1B1273E37F70022EDBB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		182CB1B3273E63850022EDBB /* UIimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIimage.swift; sourceTree = "<group>"; };
+		182CB1BB273E7F080022EDBB /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
+		182CB1BD273E83980022EDBB /* Splash animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Splash animation.gif"; sourceTree = "<group>"; };
+		182CB1BF273E83E60022EDBB /* Teleschool-text.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Teleschool-text.gif"; sourceTree = "<group>"; };
+		1878C8D8273B93B400679AAD /* TeleschoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleschoolViewController.swift; sourceTree = "<group>"; };
+		1878C8DB273B95E900679AAD /* function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = function.swift; sourceTree = "<group>"; };
+		1878C8DD273B988F00679AAD /* TeleschoolCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleschoolCollectionViewCell.swift; sourceTree = "<group>"; };
+		18834E25273A303A00818EB3 /* E-TaleemApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-TaleemApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18834E28273A303A00818EB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18834E2A273A303A00818EB3 /* FrontScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontScreenViewController.swift; sourceTree = "<group>"; };
+		18834E2D273A303A00818EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18834E2F273A303D00818EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18834E32273A303D00818EB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18834E34273A303D00818EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18834E39273A303D00818EB3 /* E-TaleemAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-TaleemAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18834E3D273A303D00818EB3 /* E_TaleemAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_TaleemAppTests.swift; sourceTree = "<group>"; };
+		18834E3F273A303D00818EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18834E44273A303D00818EB3 /* E-TaleemAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-TaleemAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18834E48273A303D00818EB3 /* E_TaleemAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_TaleemAppUITests.swift; sourceTree = "<group>"; };
+		18834E4A273A303D00818EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18834E59273A400F00818EB3 /* DashBoardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardCollectionViewCell.swift; sourceTree = "<group>"; };
+		18834E5C273A410900818EB3 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		18834E5F273A5FF700818EB3 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		18AE3EF3273CFBA500A7E9A2 /* ClassesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTableViewCell.swift; sourceTree = "<group>"; };
+		18AE3EF5273CFBE500A7E9A2 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		18F108262744D1240054FD4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18F1082A2744EE0F0054FD4C /* ClassesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesService.swift; sourceTree = "<group>"; };
+		20CC62D9B934E42CDE133DD0 /* Pods-E-TaleemApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-TaleemApp.debug.xcconfig"; path = "Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB96C4AE5D2DDFA8C0D0881 /* Pods_E_TaleemApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_TaleemApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2B05FFC4D0020BA60ADE1D /* Pods-E-TaleemApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-TaleemApp.release.xcconfig"; path = "Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18834E22273A303A00818EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CB1B2273E37F70022EDBB /* WebKit.framework in Frameworks */,
+				A551A1CCD9AAA892DDACC4A4 /* Pods_E_TaleemApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E36273A303D00818EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E41273A303D00818EB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181478B527436F3C00B85539 /* AccleratedLearning */ = {
+			isa = PBXGroup;
+			children = (
+				181478B627436F6500B85539 /* AccleratedViewController.swift */,
+			);
+			path = AccleratedLearning;
+			sourceTree = "<group>";
+		};
+		181478B82743737B00B85539 /* Radio School */ = {
+			isa = PBXGroup;
+			children = (
+				181478BF274373E100B85539 /* RadioSchoolViewController.swift */,
+			);
+			path = "Radio School";
+			sourceTree = "<group>";
+		};
+		181478B92743738E00B85539 /* Digital Platform */ = {
+			isa = PBXGroup;
+			children = (
+				181478BD274373D100B85539 /* DigitalPlatformViewController.swift */,
+			);
+			path = "Digital Platform";
+			sourceTree = "<group>";
+		};
+		181478BA2743739D00B85539 /* Inclusive Learning */ = {
+			isa = PBXGroup;
+			children = (
+				181478BB274373BE00B85539 /* InclusiveLearningViewController.swift */,
+			);
+			path = "Inclusive Learning";
+			sourceTree = "<group>";
+		};
+		182CB1AE273E25780022EDBB /* TeleSchoolSubjects */ = {
+			isa = PBXGroup;
+			children = (
+				182CB1AF273E2DF80022EDBB /* SubjectViewController.swift */,
+			);
+			path = TeleSchoolSubjects;
+			sourceTree = "<group>";
+		};
+		1878C8D7273B937D00679AAD /* Teleschool */ = {
+			isa = PBXGroup;
+			children = (
+				182CB1AE273E25780022EDBB /* TeleSchoolSubjects */,
+				18AE3EF2273CFB2100A7E9A2 /* Classes */,
+				182CB1BD273E83980022EDBB /* Splash animation.gif */,
+				182CB1BF273E83E60022EDBB /* Teleschool-text.gif */,
+				1878C8D8273B93B400679AAD /* TeleschoolViewController.swift */,
+				1878C8DD273B988F00679AAD /* TeleschoolCollectionViewCell.swift */,
+			);
+			path = Teleschool;
+			sourceTree = "<group>";
+		};
+		1878C8DA273B95CF00679AAD /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				1878C8DB273B95E900679AAD /* function.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		18834E1C273A303A00818EB3 = {
+			isa = PBXGroup;
+			children = (
+				18834E27273A303A00818EB3 /* E-TaleemApp */,
+				18834E3C273A303D00818EB3 /* E-TaleemAppTests */,
+				18834E47273A303D00818EB3 /* E-TaleemAppUITests */,
+				18834E26273A303A00818EB3 /* Products */,
+				CEAC3178BE900513FE7C84AC /* Pods */,
+				8FCD84DA1C5746E1192A4037 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18834E26273A303A00818EB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18834E25273A303A00818EB3 /* E-TaleemApp.app */,
+				18834E39273A303D00818EB3 /* E-TaleemAppTests.xctest */,
+				18834E44273A303D00818EB3 /* E-TaleemAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18834E27273A303A00818EB3 /* E-TaleemApp */ = {
+			isa = PBXGroup;
+			children = (
+				18834E28273A303A00818EB3 /* AppDelegate.swift */,
+				18F108292744D2800054FD4C /* API */,
+				18F108282744D2420054FD4C /* Constants */,
+				1878C8DA273B95CF00679AAD /* Functions */,
+				18834E5E273A5FE200818EB3 /* extensions */,
+				18834E5B273A40F900818EB3 /* Stuctures */,
+				18834E57273A307B00818EB3 /* StoryBoard */,
+				18834E56273A306900818EB3 /* Controllers */,
+				18834E2F273A303D00818EB3 /* Assets.xcassets */,
+				18834E34273A303D00818EB3 /* Info.plist */,
+			);
+			path = "E-TaleemApp";
+			sourceTree = "<group>";
+		};
+		18834E3C273A303D00818EB3 /* E-TaleemAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18834E3D273A303D00818EB3 /* E_TaleemAppTests.swift */,
+				18834E3F273A303D00818EB3 /* Info.plist */,
+			);
+			path = "E-TaleemAppTests";
+			sourceTree = "<group>";
+		};
+		18834E47273A303D00818EB3 /* E-TaleemAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18834E48273A303D00818EB3 /* E_TaleemAppUITests.swift */,
+				18834E4A273A303D00818EB3 /* Info.plist */,
+			);
+			path = "E-TaleemAppUITests";
+			sourceTree = "<group>";
+		};
+		18834E56273A306900818EB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				181478BA2743739D00B85539 /* Inclusive Learning */,
+				181478B92743738E00B85539 /* Digital Platform */,
+				181478B82743737B00B85539 /* Radio School */,
+				181478B527436F3C00B85539 /* AccleratedLearning */,
+				1878C8D7273B937D00679AAD /* Teleschool */,
+				18834E58273A3FE800818EB3 /* DashBoardCollectionView */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18834E57273A307B00818EB3 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18834E31273A303D00818EB3 /* LaunchScreen.storyboard */,
+				18834E2C273A303A00818EB3 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		18834E58273A3FE800818EB3 /* DashBoardCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18834E2A273A303A00818EB3 /* FrontScreenViewController.swift */,
+				18834E59273A400F00818EB3 /* DashBoardCollectionViewCell.swift */,
+			);
+			path = DashBoardCollectionView;
+			sourceTree = "<group>";
+		};
+		18834E5B273A40F900818EB3 /* Stuctures */ = {
+			isa = PBXGroup;
+			children = (
+				18834E5C273A410900818EB3 /* Platform.swift */,
+			);
+			path = Stuctures;
+			sourceTree = "<group>";
+		};
+		18834E5E273A5FE200818EB3 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18834E5F273A5FF700818EB3 /* UIColor.swift */,
+				182CB1B3273E63850022EDBB /* UIimage.swift */,
+				182CB1BB273E7F080022EDBB /* LogoAnimationView.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		18AE3EF2273CFB2100A7E9A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AE3EF3273CFBA500A7E9A2 /* ClassesTableViewCell.swift */,
+				18AE3EF5273CFBE500A7E9A2 /* ClassesViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		18F108282744D2420054FD4C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				18F108262744D1240054FD4C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		18F108292744D2800054FD4C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				181478C12743A82C00B85539 /* APIWrapper.swift */,
+				181478C32743A89B00B85539 /* ClassesModel.swift */,
+				18F1082A2744EE0F0054FD4C /* ClassesService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8FCD84DA1C5746E1192A4037 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182CB1B1273E37F70022EDBB /* WebKit.framework */,
+				6BB96C4AE5D2DDFA8C0D0881 /* Pods_E_TaleemApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEAC3178BE900513FE7C84AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20CC62D9B934E42CDE133DD0 /* Pods-E-TaleemApp.debug.xcconfig */,
+				EF2B05FFC4D0020BA60ADE1D /* Pods-E-TaleemApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18834E24273A303A00818EB3 /* E-TaleemApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18834E4D273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemApp" */;
+			buildPhases = (
+				2DB0CF4569D0FC270C8D13E3 /* [CP] Check Pods Manifest.lock */,
+				18834E21273A303A00818EB3 /* Sources */,
+				18834E22273A303A00818EB3 /* Frameworks */,
+				18834E23273A303A00818EB3 /* Resources */,
+				6A82A9DEDDA9BD59BC903AE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-TaleemApp";
+			productName = "E-TaleemApp";
+			productReference = 18834E25273A303A00818EB3 /* E-TaleemApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18834E38273A303D00818EB3 /* E-TaleemAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18834E50273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemAppTests" */;
+			buildPhases = (
+				18834E35273A303D00818EB3 /* Sources */,
+				18834E36273A303D00818EB3 /* Frameworks */,
+				18834E37273A303D00818EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18834E3B273A303D00818EB3 /* PBXTargetDependency */,
+			);
+			name = "E-TaleemAppTests";
+			productName = "E-TaleemAppTests";
+			productReference = 18834E39273A303D00818EB3 /* E-TaleemAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18834E43273A303D00818EB3 /* E-TaleemAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18834E53273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemAppUITests" */;
+			buildPhases = (
+				18834E40273A303D00818EB3 /* Sources */,
+				18834E41273A303D00818EB3 /* Frameworks */,
+				18834E42273A303D00818EB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18834E46273A303D00818EB3 /* PBXTargetDependency */,
+			);
+			name = "E-TaleemAppUITests";
+			productName = "E-TaleemAppUITests";
+			productReference = 18834E44273A303D00818EB3 /* E-TaleemAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18834E1D273A303A00818EB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18834E24273A303A00818EB3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					18834E38273A303D00818EB3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 18834E24273A303A00818EB3;
+					};
+					18834E43273A303D00818EB3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 18834E24273A303A00818EB3;
+					};
+				};
+			};
+			buildConfigurationList = 18834E20273A303A00818EB3 /* Build configuration list for PBXProject "E-TaleemApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18834E1C273A303A00818EB3;
+			productRefGroup = 18834E26273A303A00818EB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18834E24273A303A00818EB3 /* E-TaleemApp */,
+				18834E38273A303D00818EB3 /* E-TaleemAppTests */,
+				18834E43273A303D00818EB3 /* E-TaleemAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18834E23273A303A00818EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18834E33273A303D00818EB3 /* LaunchScreen.storyboard in Resources */,
+				18834E30273A303D00818EB3 /* Assets.xcassets in Resources */,
+				18834E2E273A303A00818EB3 /* Main.storyboard in Resources */,
+				182CB1C0273E83E70022EDBB /* Teleschool-text.gif in Resources */,
+				182CB1BE273E83980022EDBB /* Splash animation.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E37273A303D00818EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E42273A303D00818EB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB0CF4569D0FC270C8D13E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-TaleemApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A82A9DEDDA9BD59BC903AE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-TaleemApp/Pods-E-TaleemApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18834E21273A303A00818EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181478BE274373D100B85539 /* DigitalPlatformViewController.swift in Sources */,
+				18834E2B273A303A00818EB3 /* FrontScreenViewController.swift in Sources */,
+				181478BC274373BE00B85539 /* InclusiveLearningViewController.swift in Sources */,
+				182CB1B0273E2DF80022EDBB /* SubjectViewController.swift in Sources */,
+				181478C22743A82C00B85539 /* APIWrapper.swift in Sources */,
+				18834E5D273A410900818EB3 /* Platform.swift in Sources */,
+				18834E29273A303A00818EB3 /* AppDelegate.swift in Sources */,
+				1878C8DC273B95E900679AAD /* function.swift in Sources */,
+				18F1082B2744EE0F0054FD4C /* ClassesService.swift in Sources */,
+				18834E5A273A400F00818EB3 /* DashBoardCollectionViewCell.swift in Sources */,
+				181478B727436F6500B85539 /* AccleratedViewController.swift in Sources */,
+				18AE3EF4273CFBA500A7E9A2 /* ClassesTableViewCell.swift in Sources */,
+				1878C8D9273B93B400679AAD /* TeleschoolViewController.swift in Sources */,
+				181478C42743A89B00B85539 /* ClassesModel.swift in Sources */,
+				18AE3EF6273CFBE500A7E9A2 /* ClassesViewController.swift in Sources */,
+				182CB1BC273E7F080022EDBB /* LogoAnimationView.swift in Sources */,
+				18F108272744D1240054FD4C /* Constants.swift in Sources */,
+				182CB1B4273E63850022EDBB /* UIimage.swift in Sources */,
+				181478C0274373E100B85539 /* RadioSchoolViewController.swift in Sources */,
+				1878C8DE273B988F00679AAD /* TeleschoolCollectionViewCell.swift in Sources */,
+				18834E60273A5FF700818EB3 /* UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E35273A303D00818EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18834E3E273A303D00818EB3 /* E_TaleemAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18834E40273A303D00818EB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18834E49273A303D00818EB3 /* E_TaleemAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18834E3B273A303D00818EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18834E24273A303A00818EB3 /* E-TaleemApp */;
+			targetProxy = 18834E3A273A303D00818EB3 /* PBXContainerItemProxy */;
+		};
+		18834E46273A303D00818EB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18834E24273A303A00818EB3 /* E-TaleemApp */;
+			targetProxy = 18834E45273A303D00818EB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18834E2C273A303A00818EB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18834E2D273A303A00818EB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18834E31273A303D00818EB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18834E32273A303D00818EB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18834E4B273A303E00818EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18834E4C273A303E00818EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18834E4E273A303E00818EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20CC62D9B934E42CDE133DD0 /* Pods-E-TaleemApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18834E4F273A303E00818EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF2B05FFC4D0020BA60ADE1D /* Pods-E-TaleemApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18834E51273A303E00818EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-TaleemApp.app/E-TaleemApp";
+			};
+			name = Debug;
+		};
+		18834E52273A303E00818EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-TaleemApp.app/E-TaleemApp";
+			};
+			name = Release;
+		};
+		18834E54273A303E00818EB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-TaleemApp";
+			};
+			name = Debug;
+		};
+		18834E55273A303E00818EB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "E-TaleemAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "raja.E-TaleemAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-TaleemApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18834E20273A303A00818EB3 /* Build configuration list for PBXProject "E-TaleemApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18834E4B273A303E00818EB3 /* Debug */,
+				18834E4C273A303E00818EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18834E4D273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18834E4E273A303E00818EB3 /* Debug */,
+				18834E4F273A303E00818EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18834E50273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18834E51273A303E00818EB3 /* Debug */,
+				18834E52273A303E00818EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18834E53273A303E00818EB3 /* Build configuration list for PBXNativeTarget "E-TaleemAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18834E54273A303E00818EB3 /* Debug */,
+				18834E55273A303E00818EB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18834E1D273A303A00818EB3 /* Project object */;
+}
